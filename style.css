@@ -1,0 +1,153 @@
+#douter{
+    height: auto;
+    width: 100%;
+}
+#dheader{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(240, 227, 227);
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: nowrap;
+}
+#dh1{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2%;
+    /* background-color: yellow; */
+}
+#dh11{
+    height: 20%;
+    width: 100%;
+}
+#p1{
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-left: 15%;
+}
+#dh12{
+    height: 30%;
+    width: 100%;
+}
+#p2{
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    margin-top: 0%;
+    margin-left: 15%;
+}
+#dh13{
+    height: 20%;
+    width: 100%;
+    /* margin: 0%; */
+}
+#btn{
+    height: 35px;
+    width: 40%;
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    margin-left: 15%;
+}
+#dh2{
+    height: 100%;
+    width: 50%;
+}
+img{
+    height: 80%;
+    width: 90%;
+    margin: 5%;
+}
+#dcenter{
+    height: 5%;
+    width: 100%;
+}
+#p3{
+    margin: 5%;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+#dfooter{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+#df1{
+    height: 80%;
+    width: 20%;
+    margin: 5%;
+}
+#df11{
+    height: 40%;
+    width: 100%;
+    background-color: black;
+}
+#df12{
+    height: 10%;
+    width: 100%;
+}
+#p4{
+    font-size: 0.8rem;
+}
+#df13{
+    height: 40%;
+    width: 100%;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+}
+#df14{
+    height: 10%;
+    width: 100%;
+    margin: 2%;
+}
+.btn{
+    height: 30px;
+    width: 80%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    margin: 1%;
+}
+#df2{
+    height: 80%;
+    width: 20%;
+    margin: 5%;
+}
+#df3{
+    height: 80%;
+    width: 20%;
+    margin: 5%;
+}
+@media screen and(maxwidth:900px){
+    .body{
+        font-size:0.8rem;
+    }
+    #dheader, #dcenter, #dfooter{
+        font-size: 0.6rem;
+    }
+}
+@media screen and(maxwidth:610px){
+    #df1, #df2, #df3,#df12,#p4{
+        font-size: 0.6rem;
+    }
+}
+@media screen and(maxwidth:500px){
+    #p4,#p2,#p1{
+        font-size:0.3rem;
+    }
+}
+@media screen and(maxwidth:520px){
+    #p4,#p2,#p1{
+        font-size:0.1rem;
+    }
+}
+@media screen and(minwidth:320px){
+    #p4,#p2,#p1{
+        font-size:0.02rem;
+    }
+}
