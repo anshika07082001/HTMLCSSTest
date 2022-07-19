@@ -7,7 +7,6 @@
     width: 100%;
     background-color: rgb(240, 227, 227);
     display: flex;
-    /* justify-content: center; */
     flex-wrap: nowrap;
 }
 #dh1{
@@ -17,7 +16,6 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 2%;
-    /* background-color: yellow; */
 }
 #dh11{
     height: 20%;
@@ -41,7 +39,6 @@
 #dh13{
     height: 20%;
     width: 100%;
-    /* margin: 0%; */
 }
 #btn{
     height: 35px;
@@ -123,7 +120,7 @@ img{
     width: 20%;
     margin: 5%;
 }
-@media screen and(maxwidth:900px){
+@media screen and(max-width:900px){
     .body{
         font-size:0.8rem;
     }
@@ -131,23 +128,23 @@ img{
         font-size: 0.6rem;
     }
 }
-@media screen and(maxwidth:610px){
+@media screen and(max-width:610px){
     #df1, #df2, #df3,#df12,#p4{
         font-size: 0.6rem;
     }
 }
-@media screen and(maxwidth:500px){
+@media screen and(max-width:500px){
     #p4,#p2,#p1{
         font-size:0.3rem;
     }
 }
-@media screen and(maxwidth:520px){
+@media screen and(max-width:530px){
     #p4,#p2,#p1{
         font-size:0.1rem;
     }
-}
-@media screen and(minwidth:320px){
-    #p4,#p2,#p1{
-        font-size:0.02rem;
+    #btn{
+        height: 10px;
+        width: 30%;
+        font-size: 0.4rem;
     }
 }
